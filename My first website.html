@@ -1,0 +1,151 @@
+
+\<html>
+	<head>
+	
+		<title>WELCOME TO THE MY WORLD </title>
+		
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <script src="https://kit.fontawesome.com/665fbc4c38.js" crossorigin="anonymous"></script>
+
+	</head>
+		<body>
+				<div >
+					<video autoplay muted loop >
+						<source src="C:\Users\Rutvik\Desktop\My first website\video\video 2_4.mp4">
+					</video >
+				</div>
+				<div class="nav">
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<a class="a" href="#" >HOME</a>
+		            <a class="b" href="#">ABOUT ME</a>
+					<a class="c" href="#">CONTACT US</a>
+				</div>
+				<div class="content">
+					<div class="home">
+						<h1>Rutvik Vyas</h1>
+						<h2># Welcome To The My World</h2>
+				   </div>
+				   <div class="aboutme">
+				   	<img src="C:\Users\Rutvik\Desktop\My first website\IMG\rutvik.jpg" height="
+				   	100" width="100" align="left" >
+				   	  <p><b>Hello Friend!!!</b><br><br> 
+                       Welcome to the my world, I am Rutvik Aboti and i am always ready for to do new task, problem solving and new experience. And i want to usemy knowledge to advance my career and increase my knowledge it’s my objective.</p><br>
+                       <p><b>◻ Education</b><br>
+                      <b> • Ambica School</b><br>
+                         10th Pass – 2020<br>
+                       <b>• Krishana School</b><br>
+                         12th Pass – 2022<br>
+                       <b>• R.K University </b><br>
+                         B.voc (Information Technology )</p><br>
+                       <p><b>◻ Skills</b><br>
+                         Basic HTML</p> <br>
+					   <p><b>◻ Language Know</b><br>
+  					     Gujarati ,Hindi ,English</p><br>
+					   <p><b>◻ Interest </b><br>
+    				     Web Development, Android App Development ,Gaming ,Editing
+    				   </p> 
+				   </div>
+				   <div class="contactus"> 
+
+				   		<form >
+				   			  <label>Frist Name</label>&nbsp;
+				   			  <input class="inputtype" type="text" name="txt" placeholder="Enter Your Frist Name"><br><br>
+							  
+							  <label>Last Name</label>&nbsp;
+				   			  <input class="inputtype"type="text" name="txt" placeholder="Enter Your Last Name" ><br><br>
+
+							  <label>Your Email</label>&nbsp;
+				   			  <input class="inputtype" type="Email" name="Email" placeholder="abc@gmail.com"><br><br>
+
+				   			 
+				   			  <label>Gander</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   			  Male&nbsp;&nbsp;<input type="radio" name="radio" value="male">
+				   			  Female&nbsp;&nbsp;<input type="radio" name="radio" value="female"><br><br>
+
+				   			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+				   			  <textarea class="inputtype"rows="7" cols="21">Your Message...
+				   			  </textarea><br><br>
+
+				   			  <input class="submit" type="submit" name="submit"><br><br>
+
+               <center>  <div class="icon">
+                  
+                  <a href="https://www.instagram.com/mr__ru___07" title="My Instagram Account" target="_blank">
+                  	<i class="fa-brands fa-instagram"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/rupam.goswami.752" title="My FaceBook Account" target="_blank">
+                  	<i class="fa-brands fa-facebook-f"></i>           
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/rutvik-vyas-aabb1b245" title="My LinkedIn Account" target="_blank">
+										<i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+ 									
+              </center>
+
+				   		</form>
+				   	
+				   </div>
+
+				</div>
+				</div>
+
+					 <script type="text/javascript" src="C:\Users\Rutvik\Desktop\My first website\jquery-3.6.0.min.js">
+					 </script>	
+					 <script type="text/javascript">
+					 	$(document).ready(function(){
+					 		$('a').click(function(){
+					 			// alert("i am cliking");
+					 		var selected = $(this);
+					 		$('a').fadeOut('active');
+					 		$('a').fadeIn('active');
+					 		$( selected).fadeOut('active');
+					 		$( selected).fadeIn('active');	
+					 		});
+
+					 		var $a = $('.a'),
+					 		$b = $('.b'),
+					 		$c = $('.c'),
+					 		$home = $('.home'),   
+					 		$aboutme= $('.aboutme');
+					 		$contactus= $('.contactus');
+
+
+					 		$a.click(function(){
+					 			$home.fadeIn();
+					 			$aboutme.fadeOut();
+					 			$contactus.fadeOut();
+					 		});
+
+					 		$b.click(function(){
+					 			$aboutme.fadeIn();
+					 			$home.fadeOut();
+					 			$contactus.fadeOut();
+					 		});
+					 		
+					 		$c.click(function(){
+					 			$contactus.fadeIn();
+					 			$home.fadeOut();
+					 			$aboutme.fadeOut();
+					 		});
+					 	});
+					 </script>
+		</body>
+</html>
